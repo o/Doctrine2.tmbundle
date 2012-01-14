@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Doctrine 2 YAML</string>
+	<key>ordering</key>
+	<array>
+		<string>85D0E39C-44C0-4C7B-8C00-E402CB05EF56</string>
+		<string>947C3D26-0AC0-41C7-B193-1105D7C40D04</string>
+		<string>6A64A256-1A20-4B8F-9172-20446F23ECF6</string>
+		<string>C9B26C40-DECB-4020-88DC-3719778E8454</string>
+		<string>913F17BF-7866-4B69-BEBC-B6D3E6BFFB55</string>
+		<string>076DC73B-E24E-45F4-8EB2-B7EA5C58C9F8</string>
+	</array>
+	<key>uuid</key>
+	<string>22C8FA2C-732D-405A-9F4C-7FC75333D821</string>
+</dict>
+</plist>

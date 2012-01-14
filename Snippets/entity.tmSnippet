@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:Entities}\\${2:EntityName}:
+    type: entity
+    table: ${3:table_name}</string>
+	<key>name</key>
+	<string>Entity</string>
+	<key>scope</key>
+	<string>source.yaml - string</string>
+	<key>tabTrigger</key>
+	<string>entity</string>
+	<key>uuid</key>
+	<string>076DC73B-E24E-45F4-8EB2-B7EA5C58C9F8</string>
+</dict>
+</plist>
