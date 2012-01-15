@@ -155,7 +155,7 @@ Sequence Generator `sequence`
 Index `index`
 
     /**
-     * indexes={@index(name="index_name", columns={"column_name"})} 
+     * @index(name="index_name", columns={"column_name"})
      *
      */
 
