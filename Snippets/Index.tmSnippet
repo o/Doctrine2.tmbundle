@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>indexes={@index(name="${1:index_name}", columns={"${2:column_name}"})}</string>
+	<string>@index(name="${1:index_name}", columns={"${2:column_name}"})</string>
 	<key>name</key>
 	<string>Index</string>
 	<key>scope</key>
