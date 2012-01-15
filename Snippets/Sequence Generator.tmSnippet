@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@Entity(repositoryClass="${1:Namespace\Repository}", readOnly=${2:false})</string>
+	<string>@SequenceGenerator(sequenceName="${1:tablename_seq}", initialValue=${2:1}, allocationSize=${3:100})</string>
 	<key>name</key>
-	<string>Entity</string>
+	<string>Sequence Generator</string>
 	<key>scope</key>
 	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>entity</string>
+	<string>sequence</string>
 	<key>uuid</key>
-	<string>4D50B520-73A5-4F06-BA86-A5ECFE4C2EBE</string>
+	<string>4DB7F6CA-0FAE-4B71-943B-A14E18E92435</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@Entity(repositoryClass="${1:Namespace\Repository}", readOnly=${2:false})</string>
+	<string>@OneToOne(targetEntity="${1:EntityName}", cascade={"${2:cascade_option}"}, fetch="${3:EAGER|LAZY}", inversedBy="${4:inverse_side}", orphanRemoval=${5:false})</string>
 	<key>name</key>
-	<string>Entity</string>
+	<string>One To One</string>
 	<key>scope</key>
 	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>entity</string>
+	<string>onetoone</string>
 	<key>uuid</key>
-	<string>4D50B520-73A5-4F06-BA86-A5ECFE4C2EBE</string>
+	<string>307C45E1-62C3-4D3B-82A9-4C921E713755</string>
 </dict>
 </plist>

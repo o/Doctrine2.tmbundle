@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
- */
-private \$${4:id};</string>
+	<string>joinColumns={$1}</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Join Columns</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>joincols</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>E4274F8D-1822-468C-941D-E16489EF78D9</string>
 </dict>
 </plist>

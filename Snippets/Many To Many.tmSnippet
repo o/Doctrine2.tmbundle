@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@Entity(repositoryClass="${1:Namespace\Repository}", readOnly=${2:false})</string>
+	<string>@ManyToMany(targetEntity="${1:EntityName}", inversedBy="${2:inverse_side}", mappedBy="${3:property_name}", cascade="${4:cascade_option}", fetch="${5:LAZY|EXTRA_LAZY|EAGER}", indexBy="${6:field_name}")</string>
 	<key>name</key>
-	<string>Entity</string>
+	<string>Many To Many</string>
 	<key>scope</key>
 	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>entity</string>
+	<string>manytomany</string>
 	<key>uuid</key>
-	<string>4D50B520-73A5-4F06-BA86-A5ECFE4C2EBE</string>
+	<string>7B710851-BFA0-4C2D-882B-5D2AC20A5EE6</string>
 </dict>
 </plist>

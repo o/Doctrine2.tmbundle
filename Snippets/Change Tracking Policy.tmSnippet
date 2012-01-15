@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
- */
-private \$${4:id};</string>
+	<string>@ChangeTrackingPolicy("${1:DEFERRED_IMPLICIT|DEFERRED_EXPLICIT|NOTIFY}")</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Change Tracking Policy</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>changetracking</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>27D84ABE-53DF-4951-A1EC-A8A20A8FBCA6</string>
 </dict>
 </plist>

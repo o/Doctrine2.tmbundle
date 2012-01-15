@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
- */
-private \$${4:id};</string>
+	<string>@DiscriminatorMap({"${1:value}" = "${2:Class}"})</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Discriminator Map</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>discrmap</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>434A168F-94A5-41D5-AFF5-FC908C525141</string>
 </dict>
 </plist>

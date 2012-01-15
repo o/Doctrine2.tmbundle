@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@Entity(repositoryClass="${1:Namespace\Repository}", readOnly=${2:false})</string>
+	<string>@DiscriminatorColumn(name="${1:column_name}", type="${2:column_type}", length=${3:255})</string>
 	<key>name</key>
-	<string>Entity</string>
+	<string>Discriminator Column</string>
 	<key>scope</key>
 	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>entity</string>
+	<string>discrcol</string>
 	<key>uuid</key>
-	<string>4D50B520-73A5-4F06-BA86-A5ECFE4C2EBE</string>
+	<string>7D990620-B645-454A-A8DC-937297E67B0A</string>
 </dict>
 </plist>

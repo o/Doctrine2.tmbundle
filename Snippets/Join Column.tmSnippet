@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@Entity(repositoryClass="${1:Namespace\Repository}", readOnly=${2:false})</string>
+	<string>@JoinColumn(name="${1:entity_id}", referencedColumnName="${2:id}", unique=${3:false}, nullable=${4:false}, onDelete="${5:cascade}", columnDefinition="${6:definition}")</string>
 	<key>name</key>
-	<string>Entity</string>
+	<string>Join Column</string>
 	<key>scope</key>
 	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>entity</string>
+	<string>joincol</string>
 	<key>uuid</key>
-	<string>4D50B520-73A5-4F06-BA86-A5ECFE4C2EBE</string>
+	<string>836539D3-EB52-4DFF-90FF-574A8EE93876</string>
 </dict>
 </plist>

@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
- */
-private \$${4:id};</string>
+	<string>@InheritanceType("${1:SINGLE_TABLE|JOINED}")</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Inheritance</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>inheritance</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>D39BB23D-FF6D-43CE-A79D-3380F0F59D82</string>
 </dict>
 </plist>

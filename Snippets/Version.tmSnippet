@@ -4,17 +4,17 @@
 <dict>
 	<key>content</key>
 	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
+ * @column(type="integer")
+ * @version
  */
-private \$${4:id};</string>
+protected \$${1:version};</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Version</string>
 	<key>scope</key>
 	<string>source.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>version</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>226A50CA-F868-4645-B96B-8BA6EFD22FA3</string>
 </dict>
 </plist>

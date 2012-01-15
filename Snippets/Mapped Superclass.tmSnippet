@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
- */
-private \$${4:id};</string>
+	<string>@MappedSuperclass(repositoryClass="${1:Namespace\Repository}")</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Mapped Superclass</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>super</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>81F3A0F3-D405-4FA6-8F70-99D9CB729ABB</string>
 </dict>
 </plist>

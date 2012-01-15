@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
- */
-private \$${4:id};</string>
+	<string>@HasLifecycleCallbacks</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Has Lifecycle Callbacks</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>hascallbacks</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>8241CCFA-47B1-42DE-9244-D0B6DB01A4EA</string>
 </dict>
 </plist>

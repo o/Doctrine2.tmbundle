@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * @Id @Column(type="integer")
- * @GeneratedValue
- */
-private \$${4:id};</string>
+	<string>@UniqueConstraint(name="${1:index_name}", columns={"${2:column_name}"})</string>
 	<key>name</key>
-	<string>Id</string>
+	<string>Unique Constraint</string>
 	<key>scope</key>
-	<string>source.php</string>
+	<string>comment.block.documentation.phpdoc.php</string>
 	<key>tabTrigger</key>
-	<string>id</string>
+	<string>unique</string>
 	<key>uuid</key>
-	<string>293889FD-93CF-463F-93DA-1CDC22DB8A7A</string>
+	<string>3699182F-1355-4329-8ED2-E5A402D3E4C1</string>
 </dict>
 </plist>
